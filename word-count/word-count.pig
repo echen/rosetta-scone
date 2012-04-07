@@ -1,7 +1,7 @@
 /* Count words in Pig!
  * 
  * Run this in local mode with:
- *   scald.rb --local WordCount.scala
+ *   pig -x local word-count.pig
  */
 
 tweets = LOAD 'tweets.tsv' AS (text:chararray);

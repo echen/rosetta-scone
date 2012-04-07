@@ -1,7 +1,7 @@
 /* Grep! Distributed-ly!
  * 
  * Run this in local mode with:
- *   scald.rb --local DistributedGrep.scala
+ *   pig -x local distributed-grep.pig
  */
 
 %declare PATTERN '.*hello.*';

@@ -4,7 +4,7 @@
  * they appear in.
  * 
  * Run this in local mode with:
- *   scald.rb --local InvertedIndex.scala
+ *   pig -x local inverted-index.pig
  */
 
 tweets = LOAD 'tweets.tsv' AS (tweet_id:int, text:chararray);
