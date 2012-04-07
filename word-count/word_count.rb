@@ -23,6 +23,7 @@ def reducer
   STDIN.each_line do |line|
     word, count = line.strip.split("\t")
     if word != curr_word
+      # New key.
       puts [curr_word, curr_count].join("\t")
       curr_word = word
       curr_count = 0
