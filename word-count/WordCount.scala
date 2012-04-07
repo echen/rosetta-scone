@@ -1,6 +1,6 @@
 import com.twitter.scalding._
 
-/** Count words!
+/** Count words in Scalding!
   * 
   * Run this in local mode with:
   *   scald.rb --local WordCount.scala

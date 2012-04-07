@@ -1,4 +1,4 @@
-/* Count words!
+/* Count words in Pig!
  * 
  * Run this in local mode with:
  *   scald.rb --local WordCount.scala
