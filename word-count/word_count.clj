@@ -5,11 +5,10 @@
 (defmapcatop tokenize [text]
   (seq (.split text "\\s+")))
 
-(defn word-count [input-filename]
-	(let [input (hfs-textline input-filename)]
-    (<- [?word ?count]
-        (input ?textline)
-        (tokenize ?textline :> ?word)
-        (c/count ?count))))
+(defn word-count [input]
+  (<- [?word ?count]
+      (input ?textline)
+      (tokenize ?textline :> ?word)
+      (c/count ?count)))
 
-(?- (stdout) (word-count "tweets.tsv"))
+(?- (stdout) (word-count (hfs-textline "tweets.tsv")))

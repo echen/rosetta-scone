@@ -5,10 +5,9 @@
 (deffilterop matches-pattern? [text pattern]
   (re-matches pattern text))
 
-(defn distributed-grep [input-filename pattern]
-  (let [input (hfs-textline input-filename)]
-    (<- [?textline]
-        (input ?textline)
-        (matches-pattern? ?textline pattern))))
+(defn distributed-grep [input pattern]
+  (<- [?textline]
+      (input ?textline)
+      (matches-pattern? ?textline pattern)))
 
-(?- (stdout) (distributed-grep "tweets.tsv" pattern))
+(?- (stdout) (distributed-grep (hfs-textline "tweets.tsv") pattern))
