@@ -1,4 +1,5 @@
-# Count words using Hadoop Streaming (Ruby version)!
+# Count words using Hadoop Streaming (Ruby version).
+#
 # To run on the command-line:
 #   cat tweets.tsv | ruby word_count.rb mapper | sort | ruby word_count.rb reducer
 

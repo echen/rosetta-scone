@@ -1,4 +1,4 @@
--- Count words in Hive!
+-- Count words in Hive.
 
 CREATE TABLE tweets (text STRING);
 LOAD DATA LOCAL INPATH 'tweets.tsv' OVERWRITE INTO TABLE tweets;

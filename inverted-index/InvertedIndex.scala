@@ -1,13 +1,14 @@
 import com.twitter.scalding._
 
-/** Build an inverted index!
-  * 
-  * An inverted index maps words to the documents
-  * they appear in.
-  * 
-  * Run this in local mode with:
-  *   scald.rb --local InvertedIndex.scala
-  */
+/**
+ * Build an inverted index.
+ * 
+ * An inverted index maps words to the documents
+ * they appear in.
+ * 
+ * Run this in local mode with:
+ *   scald.rb --local InvertedIndex.scala
+ */
 class InvertedIndex(args : Args) extends Job(args) {
 
   val tweets = Tsv("tweets.tsv", ('id, 'text))

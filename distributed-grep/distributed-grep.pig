@@ -1,4 +1,4 @@
-/* Grep! Distributed-ly!
+/* Distributed grep.
  * 
  * Run this in local mode with:
  *   pig -x local distributed-grep.pig

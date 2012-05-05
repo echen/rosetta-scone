@@ -1,10 +1,11 @@
 import com.twitter.scalding._
 
-/** Grep! Distributed-ly!
-  * 
-  * Run this in local mode with:
-  *   scald.rb --local DistributedGrep.scala
-  */
+/**
+ * Distributed grep.
+ * 
+ * Run this in local mode with:
+ *   scald.rb --local DistributedGrep.scala
+ */
 class DistributedGrep(args : Args) extends Job(args) {
 
   val Pattern = ".*hello.*";

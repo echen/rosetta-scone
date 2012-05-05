@@ -1,5 +1,5 @@
 # Create an inverted index using Hadoop Streaming 
-# (Ruby version)!
+# (Ruby version).
 # 
 # To run on the command-line:
 #   cat tweets.tsv | ruby inverted_index.rb mapper | 

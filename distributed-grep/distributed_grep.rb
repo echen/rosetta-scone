@@ -1,4 +1,5 @@
-# Grep big data using Hadoop Streaming (Ruby version)!
+# Grep big data using Hadoop Streaming (Ruby version).
+#
 # To run on the command-line:
 #   cat tweets.tsv | ruby distributed_grep.rb mapper | 
 #     sort | ruby distributed_grep.rb reducer

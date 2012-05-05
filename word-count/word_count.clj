@@ -1,4 +1,4 @@
-;;;; Count words in Cascalog!
+;;;; Count words in Cascalog.
 
 ; Takes a single piece of text as input.
 ; Outputs a tuple for each word in the text.

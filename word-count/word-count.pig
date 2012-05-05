@@ -1,4 +1,4 @@
-/* Count words in Pig!
+/* Count words in Pig.
  * 
  * Run this in local mode with:
  *   pig -x local word-count.pig

@@ -1,4 +1,4 @@
-;;;; Distributed grep in Cascalog!
+;;;; Distributed grep in Cascalog.
 
 (def pattern #".*hello.*")
 

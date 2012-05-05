@@ -1,4 +1,4 @@
-/* Build an inverted index!
+/* Build an inverted index.
  * 
  * An inverted index maps words to the documents
  * they appear in.
