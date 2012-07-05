@@ -13,5 +13,6 @@ A collection of MapReduce tasks translated (from Pig, Hive, MapReduce streaming,
   * [Pig](https://github.com/echen/rosetta-scone/blob/master/distributed-grep/distributed-grep.pig)
 * [Inverted Index](https://github.com/echen/rosetta-scone/tree/master/inverted-index)
   * [Scalding](https://github.com/echen/rosetta-scone/blob/master/inverted-index/InvertedIndex.scala)
+  * [Cascalog](https://github.com/echen/rosetta-scone/blob/master/inverted-index/inverted-index.clj)
   * [Hadoop Streaming](https://github.com/echen/rosetta-scone/blob/master/inverted-index/inverted_index.rb)
   * [Pig](https://github.com/echen/rosetta-scone/blob/master/inverted-index/inverted-index.pig)
